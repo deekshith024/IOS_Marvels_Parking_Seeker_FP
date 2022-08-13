@@ -3,7 +3,7 @@
 
 /* Header section */
 #container {
-	position: fixed;
+	position: relative;
 	z-index: 1000;
 	left: 0;
 	top: 0;
@@ -12,24 +12,90 @@
     text-align: center;
 }
 
-
-
 /* Body  */
 
 body {
     background-color: #eecfc4;
+    height: auto;
 }
+
+
+#login{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    background-color: white;
+    
+    
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+  
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+
+}
+
+p{
+    text-align: center;
+   
+}
+
+
+
+
+
+
+
 
 /*  Footer */
 footer{
-    position: fixed;
-   left: 0;
-   bottom: 0;
-    background: #111;
-    min-height: 20px;
-    width: 100vw;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background: #111; 
+    width: 100%;
+    
+  
+    
+    
+}
+#ft{
     font-family: "Open Sans";
-    padding-top: 0 40px;
+ 
     color: rgb(237, 203, 203);
+    padding: 10px 0px 10px 0px;
     text-align: center;
 }
