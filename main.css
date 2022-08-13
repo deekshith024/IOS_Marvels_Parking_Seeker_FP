@@ -1,0 +1,35 @@
+/* stylesheet for Parking seeker website  */
+
+
+/* Header section */
+#container {
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+    text-align: center;
+}
+
+
+
+/* Body  */
+
+body {
+    background-color: #eecfc4;
+}
+
+/*  Footer */
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+    background: #111;
+    min-height: 20px;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 0 40px;
+    color: rgb(237, 203, 203);
+    text-align: center;
+}
