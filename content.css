@@ -70,6 +70,20 @@ p{
    
 }
 
+/* OTP View */
+.otp-box {
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+#lb-otptext {
+    font-size: small;
+}
 
 /*  Footer */
 footer{
