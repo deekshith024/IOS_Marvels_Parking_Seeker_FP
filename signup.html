@@ -31,7 +31,18 @@
                         <label>Confirm Password</label>
                         <input type="password" placeholder="">
                         
-                        <input type="button" value="SIGNUP">
+                       
+                    <!------------------button redirect------------------->
+                  <input id="myButton" type="button" value="SIGNUP">
+                  <script type="text/javascript">
+                    document.getElementById("myButton").onclick = function () {
+                        location.href = "index.html";
+                    };
+                </script>
+                 <!-------------End Button redirect-->
+
+
+
         </form>
     </div>
         <p>Already have a account? <a href="index.html">Login</a> here</p>
