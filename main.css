@@ -25,12 +25,24 @@ body {
     height: auto;
     margin: auto;
     padding-bottom: 15px;
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: white;
     
-    
-
 }
+/* Sign Up */
+
+.signup-box{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+
+
 
 h1{
     text-align: center;
@@ -47,7 +59,10 @@ form label{
     margin-top: 20px;
     font-size: 18px;
 }
-
+#fp {
+   
+    text-align: right;
+}
 form input{
     width: 100%;
     padding: 7px;
@@ -58,6 +73,7 @@ form input{
 
 }
 
+
 input[type="button"]{
     width: 320px;
     height: 35px;
@@ -65,6 +81,7 @@ input[type="button"]{
     border: none;
     background-color: #49c1a2;
     color: white;
+    font-size: 18px;
 
 }
 
