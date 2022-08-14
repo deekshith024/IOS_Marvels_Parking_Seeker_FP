@@ -36,7 +36,16 @@
                     <label>Password</label>
                     <input type="password" placeholder="">
                     <label id="fp"> <a href="forgot_password.html">Forgot Password?</a></label>
-                    <input type="button" value="Login">
+                    
+             <!------------------button redirect------------------->
+                  <input id="myButton" type="button" value="Login">
+                  <script type="text/javascript">
+                    document.getElementById("myButton").onclick = function () {
+                        location.href = "home.html";
+                    };
+                </script>
+                 <!-------------End Button redirect-->
+                
                 </form>
             </div>
             <p>Don't have an account? <a href="signup.html">Signup</a></p>
