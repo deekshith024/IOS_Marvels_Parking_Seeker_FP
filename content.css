@@ -85,6 +85,21 @@ p{
     font-size: small;
 }
 
+/* change password */
+.changepassword-box {
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+#lb-password {
+    font-size: small;
+}
+
 /*  Footer */
 footer{
     position: absolute;
