@@ -59,7 +59,10 @@ form label{
     margin-top: 20px;
     font-size: 18px;
 }
-
+#fp {
+   
+    text-align: right;
+}
 form input{
     width: 100%;
     padding: 7px;
@@ -69,6 +72,7 @@ form input{
     outline: none;
 
 }
+
 
 input[type="button"]{
     width: 320px;
