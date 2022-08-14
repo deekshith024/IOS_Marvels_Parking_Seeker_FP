@@ -1,6 +1,3 @@
-/* stylesheet for Parking seeker website  */
-
-
 /* Header section */
 #container {
 	position: relative;
@@ -19,19 +16,7 @@ body {
     height: auto;
 }
 
-
-#login{
-    width: 360px;
-    height: auto;
-    margin: auto;
-    padding-bottom: 15px;
-    border-radius: 10px;
-    background-color: white;
-    
-}
-/* Sign Up */
-
-.signup-box{
+.Forgot-box {
     width: 360px;
     height: auto;
     margin: auto;
@@ -41,13 +26,13 @@ body {
     
 }
 
-
-
-
-h1{
+h1 {
     text-align: center;
     padding-top: 15px;
   
+}
+#lb_fg {
+    font-size: small;
 }
 form{
     width: 300px;
@@ -59,10 +44,7 @@ form label{
     margin-top: 20px;
     font-size: 18px;
 }
-#fp {
-   
-    text-align: right;
-}
+
 form input{
     width: 100%;
     padding: 7px;
@@ -72,8 +54,6 @@ form input{
     outline: none;
 
 }
-
-
 input[type="button"]{
     width: 320px;
     height: 35px;
@@ -91,25 +71,19 @@ p{
 }
 
 
-
-
-
 /*  Footer */
 footer{
-    position: relative;
+    position: absolute;
     left: 0;
     bottom: 0;
     background: #111; 
     width: 100%;
-    
-  
-    
-    
+     
 }
 #ft{
     font-family: "Open Sans";
  
     color: rgb(237, 203, 203);
-    padding: 10px 0px 10px 0px;
+    padding: auto;
     text-align: center;
 }
