@@ -78,11 +78,31 @@ p{
     padding-bottom: 15px;
     border-radius: 10px;
     background-color: white;
-    
+    padding-left: 20px;
 }
 
 #lb-otptext {
     font-size: small;
+    text-align: center;
+}
+
+.userInput{
+	display: flex;
+	justify-content: center;
+    padding-top: 10px;
+}
+
+input{
+	margin: 10px;
+	height: 35px;
+	width: 55px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-family: arimo;
+	font-size: 1.2rem;
+	background: #eef2f3;
+
 }
 
 /* change password */

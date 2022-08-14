@@ -17,14 +17,30 @@
              style="width: 200px;"
             /></a></h1>
     </div>
-    <div class="otp-box">
+    <!-- <div class="otp-box">
         <h1>OTP Verification</h1>
         <form>
             <label id="lb-otptext">Please enter OTP you received on your mobile</label> 
-            <input type="text" placeholder="">                
+            <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">  
+                <input type="text" id="digit-1" name="digit-1" data-next="digit-2" />  
+                <input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" />  
+                <input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" />  
+                <input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" />  
+            </form>                
         <a href="changepassword.html"><input type="button" value="SUBMIT"></a>
         </form>
+    </div> -->
+    <div class="otp-box">
+        <h1>OTP Verification</h1>
+        <label id="lb-otptext">Please enter OTP you received on your mobile</label> 
+    <div class="userInput">
+        <input type="text" id='ist' maxlength="1">
+        <input type="text" id="sec" maxlength="1">
+        <input type="text" id="third" maxlength="1">
+        <input type="text" id="fourth" maxlength="1">
     </div>
+    <a href="changepassword.html"><input type="button" class="button" value="SUBMIT"></a>
+</div>
     <footer>
         <p id="ft">Copyright &copy; 2022. All rights reserved</p>
     </footer>
