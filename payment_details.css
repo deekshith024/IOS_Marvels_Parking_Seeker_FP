@@ -1,0 +1,223 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* Header section */
+#header {
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+    text-align: center;
+}
+.brand p{
+    text-align: center;
+}
+#header .header {
+	min-height: 8vh;
+	background-color:#eecfc4;
+	transition: 0.3s ease background-color;
+}
+
+body{
+    background: rgb(236, 209, 126);
+    height: auto;
+    text-align: center;
+   
+}
+.my-photo{
+    float: left;
+    
+}
+p{
+    text-align: center;
+    font-size: 23px;
+}
+#hp {
+    float: left;    
+     margin: 0 15px 0 0;
+    }
+.about-img{
+    float: left;
+}
+#ai {
+    float: left;    
+     margin: 0 15px 0 0;
+}
+
+
+#profile{
+    width: 520px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgb(236, 209, 126);
+    
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Name Box */
+.name-box{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+
+form input{
+    width: 150%;
+    height: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+
+
+input[type="button"]{
+    width: 450px;
+    height: 50px;
+    margin-top: 125px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 20px;
+
+}
+
+.Select {
+    width: 150%;
+    height: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+.section-container {
+    display: grid;
+    width: 450px;
+    grid-template-columns: 40% 10% 40%;
+}
+
+.left-part {
+    grid-column: 1;
+}
+
+.right-part {
+    grid-column: 3;
+}
+
+.right-part input, .left-part input{
+    width: 100%;
+    height: 2rem;
+    float: left;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+.Button {
+    width: 450px;
+    height: 3rem;
+    padding: 7px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    margin-top: 1rem;
+}
+/*  Footer */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #111; 
+    width: 100%; 
+}
+#ft{
+    font-family: "Open Sans";
+ 
+    color: rgb(237, 203, 203);
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #ab763d;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #ab763d;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.column {
+    float: center;
+    padding: 20px;
+
+
+}
+
+.left {
+    width: 200%;
+    padding-left: 28%;
+}
+
+.right {
+    width: 10%;
+    padding-bottom: 0%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
