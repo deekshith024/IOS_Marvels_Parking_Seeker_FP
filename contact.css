@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* Header section */
+#header {
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+    text-align: center;
+}
+.brand p{
+    text-align: center;
+}
+#header .header {
+	min-height: 8vh;
+	background-color:#eecfc4;
+	transition: 0.3s ease background-color;
+}
+
+body{
+    background: rgb(236, 209, 126);
+    height: auto;
+    text-align: center;
+   
+}
+.my-photo{
+    float: left;
+    
+}
+p{
+    text-align: center;
+    font-size: 23px;
+}
+#hp {
+    float: left;    
+     margin: 0 15px 0 0;
+    }
+.about-img{
+    float: left;
+}
+#ai {
+    float: left;    
+     margin: 0 15px 0 0;
+}
+
+
+#contact{
+    width: 520px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgb(236, 209, 126);
+    
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Name Box */
+.name-box{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+/*  email Box */
+.email-box{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+/* contact Box */
+.contact-box{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+/* Query Box */
+.query-box{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+form input{
+    width: 150%;
+    height: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+
+
+input[type="button"]{
+    width: 450px;
+    height: 50px;
+    margin-top: 155px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 20px;
+
+}
+
+/*  Footer */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #111; 
+    width: 100%;
+    
+  
+    
+    
+}
+#ft{
+    font-family: "Open Sans";
+ 
+    color: rgb(237, 203, 203);
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
