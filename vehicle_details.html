@@ -24,7 +24,7 @@
 
                         <div class="topnav">
                             <a class="active" href="home.html">🏠Home</a>
-                            <a href="myaccount.html">📖My Account</a>
+                            <a href="payment_details.html">📖My Payment</a>
                             <a href="bookings.html"> 🧾Bookings</a>
                             <div class="topnav-right">
                                 <a href="myprofile.html">👤My Profile</a>
@@ -75,6 +75,11 @@
                                                 <label>Vehicle Model</label>
                                                 <input type="text" placeholder="">
                                                 <button id="myButton" class="Button" type="button">Add Vehicle</button>
+                                                <script type="text/javascript">
+                                                    document.getElementById("myButton").onclick = function () {
+                                                        location.href = "home.html";
+                                                    };
+                                                </script>
                                     </main>
                                     </form>
                                 </div>
