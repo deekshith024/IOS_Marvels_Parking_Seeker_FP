@@ -112,6 +112,10 @@ p{
     margin-left: 20px;
 }
 
+#btn-fg-submit {
+    background-color: #A37947;
+}
+
 /* change password */
 .changepassword-box {
     width: 360px;
