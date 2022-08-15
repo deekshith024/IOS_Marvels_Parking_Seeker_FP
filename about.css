@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* Header section */
+#header {
+	position: relative;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+    text-align: center;
+}
+.brand p{
+    text-align: center;
+}
+#header .header {
+	min-height: 8vh;
+	background-color:#eecfc4;
+	transition: 0.3s ease background-color;
+}
+
+body{
+	background-color:rgb(236, 209, 126);
+    height: auto;
+    text-align: center;
+   
+}
+.my-photo{
+    float: left;
+    
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+#hp {
+    float: left;    
+     margin: 0 15px 0 0;
+    }
+.about-img{
+    float: left;
+}
+#ai {
+    float: left;    
+     margin: 0 10px 0 0;
+}
+
+
+
+
+
+
+
+/*  Footer */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #111; 
+    width: 100%;
+    
+  
+    
+    
+}
+#ft{
+    font-family: "Open Sans";
+ 
+    color: rgb(237, 203, 203);
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
