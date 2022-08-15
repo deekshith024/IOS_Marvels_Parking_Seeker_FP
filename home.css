@@ -9,7 +9,7 @@
 
 /* Header section */
 #header {
-	position: relative;
+	position: fixed;
 	z-index: 1000;
 	left: 0;
 	top: 0;
@@ -27,7 +27,7 @@
 }
 
 #id map{
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 body{
@@ -64,7 +64,7 @@ p{
 
 /*  Footer */
 footer{
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     background: #111; 
@@ -78,6 +78,6 @@ footer{
     font-family: "Open Sans";
  
     color: rgb(237, 203, 203);
-    padding: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
     text-align: center;
 }
