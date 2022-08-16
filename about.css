@@ -40,6 +40,7 @@ body{
 p{
     text-align: center;
     font-size: 20px;
+    margin-left: 20px;
 }
 #hp {
     float: left;    
