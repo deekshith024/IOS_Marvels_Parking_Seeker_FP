@@ -95,10 +95,12 @@ footer{
     flex-direction: column;
 }
 .left-card{
-    width: 50%;
+    width: 35%;
+    height: 450px;
+    overflow: scroll;
 }
 .right-card{
-    width: 50%;
+    width: 65%;
 }
 .left-home-card{
     width: 35%;
