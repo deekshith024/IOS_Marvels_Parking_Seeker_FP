@@ -9,7 +9,7 @@
 
 /* Header section */
 #header {
-	position: fixed;
+	position: relative;
 	z-index: 1000;
 	left: 0;
 	top: 0;
