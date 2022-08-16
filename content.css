@@ -38,6 +38,7 @@ h1 {
 form{
     width: 300px;
     margin-left: 20px;
+    scroll-behavior: smooth;
 }
 
 form label{
